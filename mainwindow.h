@@ -17,11 +17,6 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-private slots:
-    void on_pushButton_clicked();
-
-    void on_pushButton_3_customContextMenuRequested(const QPoint &pos);
-
 private:
     Ui::MainWindow *ui;
 };
