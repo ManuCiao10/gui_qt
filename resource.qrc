@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>icons8-settings-64.png</file>
+        <file>../killer-whale.ico</file>
     </qresource>
 </RCC>

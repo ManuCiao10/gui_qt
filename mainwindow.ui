@@ -110,9 +110,9 @@ border : 0.7px solid rgb(34, 35, 48)</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>10</y>
+       <y>50</y>
        <width>241</width>
-       <height>531</height>
+       <height>381</height>
       </rect>
      </property>
      <property name="contextMenuPolicy">
@@ -227,7 +227,7 @@ border-color: rgb(95, 98, 111);</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>400</y>
+        <y>310</y>
         <width>221</width>
         <height>21</height>
        </rect>
@@ -299,34 +299,64 @@ border-color: rgb(95, 98, 111);</string>
        <string>Italy</string>
       </property>
      </widget>
-    </widget>
-    <widget class="QPushButton" name="pushButton_5">
-     <property name="geometry">
-      <rect>
-       <x>870</x>
-       <y>20</y>
-       <width>91</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="contextMenuPolicy">
-      <enum>Qt::NoContextMenu</enum>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(68, 71, 89);
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>280</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(68, 71, 89);
 border-style: solid;
 border-width:1px;
 border-radius:1px;
 border-color: rgb(95, 98, 111);</string>
+      </property>
+      <property name="text">
+       <string>Start Application</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Andale Mono</family>
+      </font>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;</string>
      </property>
      <property name="text">
-      <string>Refresh</string>
+      <string>Settings:</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <zorder>widget_4</zorder>
     <zorder>widget_3</zorder>
     <zorder>lineEdit_2</zorder>
-    <zorder>pushButton_5</zorder>
+    <zorder>lineEdit_6</zorder>
    </widget>
   </widget>
  </widget>
