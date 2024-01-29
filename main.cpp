@@ -14,6 +14,6 @@ int main(int argc, char *argv[])
 }
 
 //change all the button name
-//add thead for gettin the data
-//add for loop function get_data_from_api
+//add thead for loop function to get the data or a request every 5 minutes
 //auto update
+//finish the golang api
