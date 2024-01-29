@@ -68,13 +68,61 @@ border : 0.7px solid rgb(34, 35, 48)</string>
       <rect>
        <x>270</x>
        <y>50</y>
-       <width>691</width>
+       <width>701</width>
        <height>491</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">border : 1px solid rgb(48, 52, 62)</string>
      </property>
+     <widget class="QLabel" name="label_image">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="house_info">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>441</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="link_house">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>20</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QLineEdit" name="lineEdit_2">
      <property name="enabled">

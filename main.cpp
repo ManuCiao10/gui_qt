@@ -16,3 +16,4 @@ int main(int argc, char *argv[])
 //change all the button name
 //add thead for gettin the data
 //add for loop function get_data_from_api
+//auto update

@@ -6,7 +6,7 @@
 #include <QTimer>
 #include <QLabel>
 #include <QSettings>
-#include <iostream>
+
 #include <QJsonDocument>
 
 #include <QNetworkAccessManager>
@@ -38,11 +38,15 @@ private slots:
 
     void readData();
     void finishReading();
+    void setUserImage();
 private:
+    const char *hwid_hardare;
+
     Ui::MainWindow *ui;
     QNetworkAccessManager *netManager;
     QNetworkReply *netReply;
     QNetworkReply *repoReply;
     QByteArray dataBuffer;
+    QPixmap *img;
 };
 #endif // MAINWINDOW_H
